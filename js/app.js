@@ -53,7 +53,6 @@ const main = (document => {
     return listItem;
   }
 
-
   function bindEvents(todoItem) {
     const checkbox = todoItem.querySelector('.checkbox');
     const editButton = todoItem.querySelector('button.edit');
@@ -99,7 +98,6 @@ const main = (document => {
   function deleteTodoItem() {
     const listItem = this.parentNode;
     todoList.removeChild(listItem);
-
   }
 
   const todoForm = document.getElementById('todo-form');
